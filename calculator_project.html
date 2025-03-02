@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Calculator</title>
+    <link rel="stylesheet" href="calculator_project_style.css">
+  </head>
+  <body>
+      <p class="js-display result-screen"></p>
+      <P>
+        <button onclick="
+  
+            updateCalculation('1');
+          " class="number-buttons">1</button>
+        <button onclick="
+            updateCalculation('2');
+          " class="number-buttons">2</button>
+        <button onclick="
+          updateCalculation('3');
+        " class="number-buttons">3</button>
+        <button onclick="
+        updateCalculation(' + ');
+        " class="orange-button">+</button>
+      </P>
+      <P>
+        <button onclick="
+          updateCalculation('4');
+        " class="number-buttons">4</button>
+        <button onclick="
+          updateCalculation('5');
+        " class="number-buttons">5</button>
+        <button onclick="
+          updateCalculation('6');
+        " class="number-buttons">6</button>
+        <button onclick="
+          updateCalculation(' - ');
+        " class="orange-button">-</button>
+        </P>
+        <P>
+        <button onclick="
+          updateCalculation('7');
+        " class="number-buttons">7</button>
+        <button onclick="
+          updateCalculation('8');
+        " class="number-buttons">8</button>
+        <button onclick="
+          updateCalculation('9');
+        " class="number-buttons">9</button>
+        <button onclick="
+          updateCalculation(' * ');
+        " class="orange-button">*</button>
+      </P>
+      <P>
+        <button onclick="
+          updateCalculation('0');
+        " class="number-buttons">0</button>
+        <button onclick="
+          updateCalculation('.');
+        " class="number-buttons">.</button>
+        <button onclick="
+            result=eval(result) ;
+            document.querySelector('.js-display').innerHTML=result;
+        " class="number-buttons">=</button>
+        <button onclick="
+          updateCalculation(' / ');
+        " class="orange-button">/</button>
+        
+      </P>
+      <button onclick="
+        result='';
+        document.querySelector('.js-display').innerHTML=result;
+      " class="number-buttons clear-button">clear</button>
+    
+  </body>
+  <script src="calculator_project_js.js"></script>
+</html>

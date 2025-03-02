@@ -1,0 +1,37 @@
+body{
+  background-color: black;
+}
+button{
+  font-family: arial;
+  cursor: pointer;
+}
+.result-screen{
+  font-size:45px;
+  font-family: arial;
+  color:white;
+  margin:0px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.number-buttons{
+  color:white;
+  background-color: rgb(39, 39, 39);
+  width:60px;
+  height: 60px;;
+  margin-right:7px;
+  border:none;
+  border-radius: 30px;;
+  font-size: 26px;
+}
+.clear-button{
+  font-size:17px;
+}
+.orange-button{
+  color:white;
+  background-color: orange;
+  width:60px;
+  height: 60px;
+  border-radius: 30px;;
+  font-size: 26px;
+  border:none;
+}
